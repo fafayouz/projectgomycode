@@ -1,0 +1,243 @@
+
+.Blog-title {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+}
+.Box-image-1 {
+    width: 8rem;
+    height: 7rem;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 51rem;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Animatedicons 3s infinite ease-in-out; 
+
+}
+.Box-image-2 {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 22rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Animatedicons1 3s infinite ease-in-out;
+    
+}
+.Box-image-3 {
+    width: 8rem;
+    height: 7rem;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Animatedicons2 3s infinite ease-in-out;
+
+
+}
+@keyframes Animatedicons {
+    0%{
+        margin-top: 12rem;
+    }
+    50%{
+        margin-top: 10rem;
+    }
+    100%{
+        margin-bottom: 12rem;
+    }
+}
+@keyframes Animatedicons1 {
+    0%{
+        margin-top: 10rem;
+    }
+    50%{
+        margin-top: 8rem;
+    }
+    100%{
+        margin-top: 10rem;
+    }
+}
+@keyframes Animatedicons2 {
+    0%{
+        margin-top: 1rem;
+    }
+    50%{
+        margin-top: 0rem;
+    }
+    100%{
+        margin-bottom: 1rem;
+    }
+}
+@keyframes Animatedicons3 {
+    0%{
+        margin-top: 1rem;
+    }
+    50%{
+        margin-top: 2rem;
+    }
+    100%{
+        margin-top: 1rem;
+    }
+}
+.Box-image-4 {
+    width: 16rem;
+    height: 16rem;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 63rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Box-image-5 {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 38rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Animatedicons3 3s infinite ease-in-out;
+
+}
+.Box-image-1 img {
+    width: 190%;
+    height: 190%;
+    margin-top: 1rem;
+}
+.Box-image-2 img {
+    width: 190%;
+    height: 190%;
+    margin-top: 1.2rem;
+}
+.Box-image-3 img {
+    width: 220%;
+    height: 220%;
+    margin-left: 3rem;
+}
+.Box-image-4 img {
+    width: 110%;
+    height: 110%;
+    margin-top: 1rem;
+}
+.Box-image-5 img {
+    width: 100%;
+    height: 100%;
+}
+.Blog-Content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.Blog-Content a {
+    text-decoration: none;
+}
+/* Responsive Designe */
+
+
+
+@media only screen and (max-width: 768px) {
+    .Blog-title{
+        height: 15rem;
+    }
+    .Box-image-2 {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 6rem;
+        margin-top: 10rem;
+    }
+    .Box-image-1 {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 16rem;
+        margin-top: 10rem;
+    }
+    .Box-image-4 {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 16rem;
+        margin-top: 10rem;
+        display: none;
+    }
+    .Box-image-3 {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+    .Box-image-3 img {
+        margin-right: 2rem;
+    }
+    .Box-image-5 {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 12rem;
+        margin-top: 10rem;
+    }
+   
+    @keyframes Animatedicons {
+        0%{
+            margin-top: 10rem;
+        }
+        50%{
+            margin-top: 9rem;
+        }
+        100%{
+            margin-bottom: 10rem;
+        }
+    }
+    @keyframes Animatedicons1 {
+        0%{
+            margin-top: 10rem;
+        }
+        50%{
+            margin-top: 9rem;
+        }
+        100%{
+            margin-bottom: 10rem;
+        }
+    }
+    @keyframes Animatedicons1 {
+        0%{
+            margin-top: 10rem;
+        }
+        50%{
+            margin-top: 9rem;
+        }
+        100%{
+            margin-bottom: 10rem;
+        }
+    }
+    @keyframes Animatedicons2 {
+        0%{
+            margin-top: 2rem;
+        }
+        50%{
+            margin-top: 1rem;
+        }
+        100%{
+            margin-top: 2rem;
+        }
+    }
+    
+}

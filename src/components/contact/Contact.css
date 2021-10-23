@@ -1,0 +1,226 @@
+
+.Contact-Container {
+    width: 100%;
+    height: 90vh;
+    background-color: #5732B3;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.Contact-img {
+    width: 35rem;
+    height: 28rem;
+    position: absolute;
+    margin-left: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: PC 3s infinite ease-in-out;
+    overflow: hidden;
+}
+.Contact-img img {
+    width: 180%;
+    height: 180%;
+    margin-left: 2.5rem;
+}
+@keyframes PC {
+    0%{
+        margin-bottom: 0rem;
+    }
+    50%{
+        margin-bottom: 3rem;
+    }
+    100%{
+        margin-bottom: 0rem;
+    }
+}
+
+.Form-Contact {
+    width: 50%;
+    height: 80%;
+    margin-left: 40rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Form-Contact-client {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-Box {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-Box- {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-Box- input {
+    width: 80%;
+    height: 35%;
+    text-align: right;
+    font-family: 'Almarai', sans-serif;
+    border-radius: 0.4rem;
+    padding-right: 1rem;
+    overflow: hidden;
+    font-size: 1rem;
+    outline: none;
+    border: 0.1rem solid #bec2d8;
+    box-shadow:0px 24px 26px -6px rgb(0 0 0 / 30%);
+}
+.input-Box select {
+    width: 93%;
+    height: 75%;
+    text-align: right;
+    font-family: 'Almarai', sans-serif;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 2.5rem;
+    border: 0.1rem solid #bec2d8;
+    box-shadow:0px 24px 26px -6px rgb(0 0 0 / 30%);
+}
+.message {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.message textarea {
+    width: 90%;
+    height: 100%;
+    text-align: right;
+    border-radius: 0.4rem;
+    font-family: 'Almarai', sans-serif;
+    overflow: hidden;
+    font-size: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    border: 0.1rem solid #bec2d8;
+    box-shadow:0px 24px 26px -6px rgb(0 0 0 / 30%);
+    resize: none;
+
+}
+.Button-box {
+    width: 80%;
+    height: 14%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.Button {
+    width: 30%;
+    height: 80%;
+    background-color: #5732B3;
+    border: 1px solid #FEAE00;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+.Button:hover {
+    background-color: #FEAE00;
+}
+.form-button {
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+    margin: 3.8rem 2rem 0rem 0rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #FEAE00;
+    background-color: #5732B3;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: 'Almarai', sans-serif;
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.form-button:hover{
+    background-color: #FEAE00;
+    color: black;
+    }
+.Stack {
+    animation: fadeanimation 1s both;
+}
+
+@keyframes fadeanimation {
+    from {
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Contact-Container {
+        width: 100%;
+        height: 110vh;
+        background-color: #5732B3;
+        margin: 0 auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Form-Contact {
+        width: 100%;
+        height: 80%;
+        margin-left: 0rem;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 15rem;
+    }
+    .Contact-img {
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: PC 3s infinite ease-in-out;
+        overflow: hidden;
+    }
+  
+    .input-Box- input {
+        font-size: 1rem;
+        outline: none;
+    }
+    .message textarea {
+        font-size: 1.2rem;
+    
+    }
+    @keyframes PC {
+        0%{
+            margin-top: 1rem;
+        }
+        50%{
+            margin-top: 0rem;
+        }
+        100%{
+            margin-top: 1rem;
+        }
+    }
+}

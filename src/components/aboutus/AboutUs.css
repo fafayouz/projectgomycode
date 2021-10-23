@@ -1,0 +1,90 @@
+.Why-Us-Container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #E8E8E8;
+}
+.Why-Paragraphe {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+
+}
+.cool-image {
+    width: 20rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 77;
+    transform: rotate(-60deg);
+    animation: hello 1.5s both;
+}
+@keyframes hello {
+    from {
+        margin-right: -140rem;
+    }to {
+        margin-right: -65rem;
+    }
+}
+.cool-image img {
+    width: 300%;
+    height: 100%;
+}
+
+
+.About-us {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    display: flex;
+}
+.About-us-P {
+    width: 70%;
+    height: 90%;
+    align-self: center;
+    text-align: end;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .About-us {
+        width: 100%;
+        margin-right: 10rem;
+    }
+    .About-us-P {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .cool-image {
+        width: 15rem;
+        height: 17rem;
+        margin-right: 0rem;
+        margin-left: -10rem;
+        display: flex;
+        margin-top: 25rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 77;
+        transform: rotate(-10deg);
+        animation: hello 1.5s both;
+    }
+    @keyframes hello {
+        from {
+            margin-right: 0rem;
+        }to {
+            margin-right: 0rem;
+        }
+    }
+  
+}

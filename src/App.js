@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Home from './pages/Home'
+import { BrowserRouter as Router , Switch , Route } from 'react-router-dom'
+import Blog from './pages/Blog/Blog'
+import Service from './pages/services/Service'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/التدوينات" component={Blog} />
+        <Route exact path="/:slug" component={Service}/>
+      </Switch>
+    </Router>
+    </>
+  )
 }
 
-export default App;
+export default App

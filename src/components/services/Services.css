@@ -1,0 +1,175 @@
+.Services-Container {
+    width: 100%;
+    height: 270vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e8e8e8;
+}
+
+.Services-Title {
+    width: 40%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid #5732B3;
+    border-radius: 2rem;
+}
+.Services {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Digital-Marketing {
+    width: 80%;
+    height: 35%;
+    align-items: center;
+    display: flex;
+}
+.Digital-Marketing-Img {
+    width: 40%;
+    height: 85%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Digital-Marketing-Img img {
+    width: 100%;
+    height: 100%;
+}
+.Digital-Marketing-Content {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+}
+.Services-Card-Container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Services-Card {
+    width: 30%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.4s ;
+    cursor: pointer;
+}
+.Services-Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Services-Image {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    background-color: #5732B3;
+    border-radius: 50%;
+}
+.Services-Image img {
+    width: 60%;
+    height: 60%;
+}
+.Services-Card h2 {
+    margin-top: 1rem;
+    height: 2.6rem;
+    color: #5732B3;
+    font-size: 1.1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.Paragraphe {
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.Paragraphe-Box {
+    width: 90%;
+    height: 40%;
+}
+.Card-btn {
+    width: 30%;
+    height: 15%;
+    background-color:#5732B3;
+    margin-bottom: 2.4rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Card-btn:hover {
+    color: #feae00;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Services-Container {
+        width: 100%;
+        height: 550vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .Services-Title {
+        width: 90%;
+        height: 2.5%;
+        display: flex;
+        font-size: 0.8rem;
+    }
+    .Services {
+        height:93%;
+        width: 100%;
+    }
+    .Digital-Marketing {
+        width: 100%;
+        height: 20%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .Digital-Marketing-Img {
+        width: 100%;
+    }
+    .Digital-Marketing-Content {
+        width: 95%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+    }
+    .Services-Card {
+        width: 95%;
+        height: 15%;      
+    }
+  
+}
